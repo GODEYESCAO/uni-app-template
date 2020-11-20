@@ -1,0 +1,268 @@
+.flex{
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    align-items: center;
+  }
+  .flex_center{
+    display: flex;
+    justify-content: center;
+  }
+  .flex_center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex_left{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .flex_space{
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex_around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex_warp{
+    flex-wrap  :wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+  }
+  .flex_start{
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex_end{
+      display: flex;
+      justify-content :flex-end;
+  }
+  .flex_end1{
+      display: flex;
+      align-items: flex-end;
+  }
+  //垂直样式
+  .flex_col{
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col_start{
+    // display: flex
+    // flex-direction: column
+    align-items: flex-start;
+  }
+  .flex_col_end{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end
+  }
+  .flex_col_center{ //居中显示
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex_col_center2{ //居中心显示
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex_col_right{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+  
+ 
+    .ml_40{
+      margin-left: 40rpx !important
+    }
+    .ml_35{
+      margin-left: 35rpx !important
+    }
+    .ml_30{
+        margin-left: 30rpx !important
+    }
+    .ml_25{
+      margin-left: 25rpx !important
+    }
+    .ml_20{
+      margin-left: 20rpx !important
+    }
+    .ml_15{
+      margin-left: 15rpx !important
+    }
+    .ml_12{
+        margin-left: 12rpx !important
+    }
+    .ml_10{
+      margin-left: 10rpx !important
+    }
+    .ml_8{
+      margin-left: 8rpx !important
+    }
+    .ml_5{
+      margin-left: 5rpx !important
+    }
+    .mr_5{
+      margin-right: 5rpx !important
+    }
+    .mr_8{
+      margin-right: 8rpx !important
+    }
+    .mr_12{
+      margin-right: 12rpx !important  
+    }
+    .mr_15{
+      margin-right:  15rpx !important
+    }
+    .mr_20{
+      margin-right:  20rpx !important
+    }
+    .mr_25{
+      margin-right:  25rpx !important
+    }
+    .mr_35{
+      margin-right:  35rpx !important
+    }
+    .mr_60{
+      margin-right:  60rpx !important
+    }
+    .mt_50{
+      margin-top: 50rpx !important
+    }
+    .mt_40{
+      margin-top: 40rpx !important
+    }
+    .mt_60{
+      margin-top: 50rpx !important
+    }
+    .mt_35{
+      margin-top: 35rpx !important
+    }
+    .mt_30{
+      margin-top: 30rpx !important
+    }
+    .mt_25{
+      margin-top: 25rpx !important
+    }
+    .mt_20{
+      margin-top: 20rpx !important
+    }
+    .mt_15{
+      margin-top: 15rpx !important
+    }
+    .mt_12{
+      margin-top: 12rpx !important
+    }
+    .mt_8{
+      margin-top: 8rpx !important
+    }
+    .mt_5{
+      margin-top: 5rpx !important
+    }
+    .mb_5{
+      margin-bottom: 5rpx !important
+    }
+    .mb_10{
+      margin-bottom: 10rpx !important
+    }
+    .mb_12{
+      margin-bottom: 12rpx !important
+    }
+    .mb_15{
+      margin-bottom: 15rpx !important
+    }
+    .mb_20{
+      margin-bottom: 20rpx !important
+    }
+    .mb_25{
+      margin-bottom: 25rpx !important
+    }
+    .mb_30{
+        margin-bottom: 30rpx !important
+    }
+    .mb_50{
+        margin-bottom: 50rpx !important
+    }
+	
+	.c333{
+		color: $uni-text-color-gray333;
+	}
+	.c666{
+		color: $uni-text-color-gray333;
+	}
+	.c999{
+		color: $uni-text-color-gray999
+	}
+	.right_slot {
+	  color: #ffffff;
+	  font-size: 32rpx;
+	  margin-right: 24rpx;
+	}
+	.line1{ 
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  &:after{
+	    content:"";
+	    font-weight:bold;
+	    position:absolute;
+	    bottom:0;
+	    right:0;
+	    padding:0 20px 1px 0px;///控制后面省略号的位置
+	  }
+	}
+	.line2{ 
+	  overflow:hidden; 
+	  text-overflow:ellipsis;
+	  display:-webkit-box; 
+	  -webkit-box-orient:vertical;
+	  -webkit-line-clamp:2; 
+	  &:after{
+	    content:"";
+	    font-weight:bold;
+	    position:absolute;
+	    bottom:0;
+	    right:0;
+	    padding:0 20px 1px 0px;///控制后面省略号的位置
+	  }
+	}
+	.line4{
+	  overflow:hidden; 
+	  text-overflow:ellipsis;
+	  display:-webkit-box; 
+	  -webkit-box-orient:vertical;
+	  -webkit-line-clamp:4; 
+	  &:after{
+	    content:"";
+	    font-weight:bold;
+	    position:absolute;
+	    bottom:0;
+	    right:0;
+	    padding:0 20px 1px 0px;///控制后面省略号的位置
+	  }
+	}
+	.custom-style {
+	  position: fixed !important;
+	  bottom: 40rpx;
+	  left: 42rpx;
+	  color: #fff;
+	  width: 662rpx;
+	  height: 96rpx;
+	  font-size: 36rpx;
+	  background: #5680fa !important;
+	  border-radius: 48rpx;
+	}
+	.uni-body{
+		background-color: #fff;
+	}
+	.uni-input-input{
+		padding-left: 20rpx;
+	}
