@@ -2,7 +2,7 @@
 export default {
 	onLaunch: function() {
 		console.log('App Launch');
-		this.browserRedirect();
+		// this.browserRedirect();
 	},
 	onShow: function() {
 		console.log('App Show');
@@ -36,7 +36,7 @@ export default {
 				// window.location.href = '手机站链接';
 			} else {
 				console.log('PC站链接');
-				window.location = 'http://localhost:8889';
+				// window.location = 'http://localhost:8889';
 			}
 		}
 	}

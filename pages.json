@@ -10,12 +10,52 @@
 				"navigationBarTitleText": "Tospino 卜鸣集购-中小企业跨境电商一站式服务平台"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/my/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/language",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "语言切换",
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
 		"onReachBottomDistance": 50
+	},
+	"tabBar": {
+		"color": "#B3C2E2",
+		"selectedColor": "#226AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "64px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/common/work_.png",
+				"selectedIconPath": "static/img/common/work.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/img/common/my_.png",
+				"selectedIconPath": "static/img/common/my.png",
+				"text": "My"
+			}
+		]
 	}
 }
