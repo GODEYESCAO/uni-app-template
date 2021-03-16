@@ -33,6 +33,7 @@ export default {
 			version: 'v ' + urlconfig.version
 		};
 	},
+	
 	onShow() {
 		this.user = uni.getStorageSync('user') || '';
 	},
